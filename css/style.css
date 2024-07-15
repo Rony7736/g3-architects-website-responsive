@@ -222,7 +222,19 @@ main > section{
     filter: grayscale(100%);
 }
 
+/* Footer Styles */
 
+.footer{
+    background-color: #FFF4E7;
+    
+}
+.footer h4{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
 
 /* Responsive Media Query */
 
@@ -262,6 +274,7 @@ main > section{
         margin-top: 20px;
         margin-left: 20px;
     }
+   
 
 
 }
