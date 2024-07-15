@@ -53,6 +53,10 @@ body{
 main > section{
     margin-top: 135px;
 }
+.section-title{
+    font-size: 3rem;
+    font-weight: 700;
+}
 
 /* Header Styles */
 
@@ -116,10 +120,6 @@ main > section{
 #quick-list-1{
     color: #FF900E;
 }
-.feature-title{
-    font-size: 3rem;
-    font-weight: 700;
-}
 .our-features p{
     font-size: 1rem;
     font-weight: 500;
@@ -129,6 +129,8 @@ main > section{
 
 
 /* Responsive Media Query */
+
+/* Small Device */
 
 @media screen and (max-width: 576px) {
     .navbar, 
@@ -149,4 +151,15 @@ main > section{
         margin-left:20px
     }
 
+}
+
+/* Medium Device */
+
+@media screen and (min-width: 576px) and (max-width:992px) {
+    .team-section{
+        flex-direction: column;
+    }
+    .our-features{
+        margin: 50px auto;
+    }
 }
